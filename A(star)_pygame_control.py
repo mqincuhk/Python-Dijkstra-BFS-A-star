@@ -58,6 +58,7 @@ TILE = 70
 pg.init()
 sc = pg.display.set_mode([cols * TILE, rows * TILE])
 clock = pg.time.Clock()
+
 # set grid
 grid = ['22222222222222222222212',
         '22222292222911112244412',

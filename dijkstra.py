@@ -33,6 +33,7 @@ goal = 'B'
 visited = dijkstra(start, goal, graph)
 
 cur_node = goal
+print(graph)
 print(f'\npath from {goal} to {start}: \n {goal} ', end='')
 while cur_node != start:
     cur_node = visited[cur_node]
